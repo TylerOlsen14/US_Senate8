@@ -7,3 +7,27 @@
   padding:50px;
   margin-right:200px;
 }
+.senator{
+  display: Flex;
+  justify-content: center;
+  width: 90%;
+  grid-template-columns: 50% auto;
+  align-content: center;
+
+  border: 3px solid black;
+  margin: auto;
+  margin-top: 5px;
+
+  
+}
+.senatorLeft{
+  width:90%;
+  align-items: flex-end;
+}
+img{
+  width: 10%;
+}
+.senatorRight{
+  align-self: flex-start;
+  align-items: flex-start
+}
